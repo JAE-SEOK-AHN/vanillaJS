@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">       
+<style>
+</style>
+</head>
+<body>
+<script type="text/javascript">   
+
+// function fscope() {
+//     // var로 선언하면 global 변수를 변경하게 됨. var 이 있을 경우에 local 변수가 변경
+//     var vscope = 'local';    
+// }
+
+// alert(vscope);
+
+var greeting = "hey hi" ; 
+var times = 4;
+if( times> 3) {
+   var greeting = "say Hello instead";
+}
+console.log(greeting);
+
+function a() {};
+a = { b:function(){console.log(a)}};
+anc = {
+    a:1,
+    b:2
+}; 
+
+var numbers = [20, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+var sortfunc = function(a,b) {
+    console.log(a,b);
+    if(a>b) {
+        return 1;
+    } else if(a<b) {
+        return -1;
+    } else {
+        return 0;
+    }
+}
+
+console.log(numbers.sort(sortfunc));
+
+</script>
+</body>
+</html>
