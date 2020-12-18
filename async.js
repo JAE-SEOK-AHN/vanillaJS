@@ -23,16 +23,16 @@ function printWithDelay(print, timeout) {
 printWithDelay(()=>console.log('async callback'), 2000);
 
 // Callback Hell example
-class UserStorage {
-    loginUser(id, password, onSuccess, onError) {
-        setTimeout(()=>{
-            if(
-                (id === 'ellie' && )
-            )
-        }, 2000)
-    }
+// class UserStorage {
+//     loginUser(id, password, onSuccess, onError) {
+//         setTimeout(()=>{
+//             if(
+//                 (id === 'ellie' && )
+//             )
+//         }, 2000)
+//     }
 
-    getRoles(user, onSuccess, onError) {
+//     getRoles(user, onSuccess, onError) {
         
-    }
-}
+//     }
+// }
